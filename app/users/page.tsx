@@ -1,6 +1,4 @@
 export default async function Users() {
-  console.log("Is this a server of client component");
-
   const response = await fetch("https://jsonplaceholder.typicode.com/users");
   const users = await response.json();
 
